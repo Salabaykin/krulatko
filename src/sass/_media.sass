@@ -1,0 +1,291 @@
+@media screen and ( max-width: 1000px )
+
+  .header 
+    &__wrapper
+      padding: 0 30px
+
+  .promo 
+    &__wrapper
+      padding: 0 30px
+  .frameless
+    .mb50
+      margin-bottom: 0
+    &__title-left
+      &::before
+        display: none
+    &__title-right
+      &::before
+        display: none
+    &__item
+      margin: 0 0 50px 0
+
+  .products
+    &__wrapper
+      padding: 0 30px
+
+  .location
+    padding: 0
+    .container 
+      padding: 0
+    &__wrapper
+      flex-direction: column-reverse
+    &__map iframe 
+      border-radius: 0px
+      width: 100%
+      margin-top: 50px
+      height: 400px
+    &__address
+      margin-left: 0
+      width: 100%
+
+@media screen and ( max-width: 920px )
+
+  .frameless
+    &__content
+      padding: 0 30px
+    &__item 
+      margin-bottom: 60px
+  
+  .sale 
+    &__content
+      padding: 0
+      margin-top: 50px
+    &__circle 
+      display: none
+    &__wrapper
+      justify-content: center
+    &__form 
+      background-color: #fff
+
+  .delivery 
+    background: none
+    background-color: $second-color
+    &__wrapper
+      justify-content: center
+    &__title
+      &::before
+        display: none
+      span
+        border-radius: 12px
+    &__circle
+      display: none
+    &__content
+      margin: 0
+      margin-top: 55px
+
+@media screen and ( max-width: 860px )
+
+  section
+    .title 
+      font-size: 30px
+      padding: 50px 0
+
+  .promo 
+    background-position: 40%
+    &__wrapper
+      padding: 0 30px
+    &__content
+      margin-top: 50px
+    &__title 
+      width: 400px
+      font-size: 35px
+    &__subtitle
+      font-size: 18px
+      width: 90%
+      text-align: center
+      background-color: #fff
+      border-radius: 8px
+
+  .frameless
+    &__item 
+      justify-content: center
+    &__descr
+      width: 300px
+    .left-ml-93
+      margin-left: 0
+    &__img 
+      display: flex
+      justify-content: center
+      img
+        width: 80%
+    &__title-right
+      margin-top: 0
+    &__title-left
+      margin-top: 0
+
+  .sale
+    background-position: 45%
+    min-height: 470px
+    &__title
+      font-size: 19px
+      .sale28
+        font-size: 40px
+      .box 
+        font-size: 20px
+        &::before
+          top: 2px
+
+  .products
+    &__num
+      font-size: 38px
+    &__descr
+      font-size: 17px
+
+  .certificate
+    padding: 0 30px
+    &__content
+      flex-direction: column-reverse
+      justify-content: center
+      align-items: center
+    &__img 
+      width: 200px
+    &__descr
+      width: 100%
+      margin-bottom: 50px
+    &__title
+      justify-content: center   
+
+  .advantages 
+    padding: 50px 0 20px 0
+    &__img 
+      margin-left: 15px
+    &__item 
+      min-height: 100px
+      margin-bottom: 30px
+    &__wrapper
+      flex-direction: column
+      align-items: center
+      &--left
+        text-align: center
+        margin: 0
+      &--right
+        text-align: center
+        margin: 0
+    
+    .lt-arrow, .lb-arrow, .rt-arrow, .rb-arrow
+      &::before
+        display: none
+      
+      
+@media screen and ( max-width: 720px )
+
+  .header 
+    &__phone
+      font-size: 20px
+
+  .promo
+    background-position: 43%
+    &__wrapper
+      justify-content: center
+      padding: 0
+    &__content
+      align-items: center
+    &__title
+      text-align: center
+    &__subtitle
+      width: 90%
+      text-align: center
+      background-color: #fff
+      border-radius: 8px
+
+  .frameless
+    &__content
+      padding: 0
+    &__item 
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      margin-bottom: 40px
+      &:last-child
+        margin-bottom: 50px
+    .order-1
+      order: 2
+    .order-2 
+      order: 1
+    &__descr
+      margin-bottom: 40px
+      text-align: center
+    .left-ml-93
+      p 
+        text-align: center
+    &__title-left
+      text-align: center
+
+  .products
+    &__wrapper
+      flex-direction: column
+    &__item
+      margin-top: 50px
+      &:last-child
+        margin-bottom: 50px
+        
+  .certificate
+    &__title h3
+      font-size: 18px
+    &__text
+      font-size: 15px
+
+  .footer
+    &__wrapper
+      flex-direction: column
+    .logo
+      margin-bottom: 10px
+    &__confidentiality
+      margin-bottom: 20px
+    &__info 
+      text-align: center
+      span 
+        padding: 5px 0
+
+@media screen and ( max-width: 540px )
+  
+  .header 
+    &__wrapper
+      flex-direction: column
+      justify-content: center
+      align-items: center
+    &__call 
+      margin: 15px 0 10px 0
+      align-items: center
+    &__phone
+      font-size: 20px
+    &__order
+      margin-top: 10px
+
+  .promo
+    min-height: 500px
+    &__wrapper
+      padding: 0
+    &__title
+      width: 100%
+      font-size: 27px
+    &__subtitle
+      width: 285px
+      font-size: 14px
+
+  .certificate
+    &__title
+      text-align: center
+      h3 
+        margin: 0
+    &__warning
+      display: none
+    &__text
+      margin-top: 30px
+
+@media screen and ( max-width: 450px )
+  
+  .promo
+    min-height: 540px
+    &__title
+      font-size: 24px
+
+  .frameless
+    &__descr
+      width: 100%
+
+  .certificate
+    padding: 0
+  
+
+  
